@@ -40,9 +40,9 @@ Swift 3.0
  <div align="center">
  
  <figure>
-  <img src="http://katikids.com/chatRoom-chat-1" height="550" width="300">
+  <img src="http://katikids.com/chatRoom-chat-1.png" height="550" width="300">
   <b>  </b>
-  <img src="http://katikids.com/chatRoom-chat-2" height="550" width="300">
+  <img src="http://katikids.com/chatRoom-chat-2.png" height="550" width="300">
 </figure>
  
   </div>
