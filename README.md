@@ -21,8 +21,71 @@ Swift 3.0
  
 </p>
 
+## Installation  :
+
+1. Install The Socket.IO-Client-Swift Pod
+    
+        1. pod 'Socket.IO-Client-Swift'
+
+2. Connect to the Node JS Server 
+
+```swift
+import SocketIO
+
+ let socket = SocketIOClient.init(socketURL: URL.init(string: SOCKET_URL)!) // init socket
+        
+socket.on("connect") {data, ack in
+    print("socket connected")
+}
+
  
-## Desc. Steps :
+socket.connect()
+```
+
+
+2. Socket Emit Post Message
+
+```swift
+import SocketIO
+
+     let messageData =
+                      ["message": text, // message to be send
+                       "room_id": "\(chatRoomId!)", // channel - room id
+                       "user_image" : image // user_image
+        
+     self.socket.emit("Message", messageData) // socket emit message
+
+```
+
+
+2. Socket on to listen for incoming events
+
+```swift
+import SocketIO
+
+     self.socket.on("\(chatRoomId!)", callback: {data, ack in
+      
+            if let dictionary = data[0] as? Dictionary <String,AnyObject> {
+                
+                // get message and user_image
+
+                if let message = dictionary["message"] as? String, let user_image = dictionary["user_image"] as? String {
+                    
+                    // post message
+  
+                    self.postMessage(text: message, senderURL: user_image)
+                    
+                }
+            }
+    
+        })
+
+
+```
+
+
+ 
+## Steps :
 
     1. Run APP on Simulator or IOS Device and authorized yourself by login in your twitter account.
  
