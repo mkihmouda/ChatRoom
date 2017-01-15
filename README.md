@@ -14,6 +14,13 @@ Swift 3.0
 ## Desc. 
 
 ‘ChatRoom’ is a chat room based messenger available for iOS devices. With ChatRoom, everyone in the world can engage any chat room with the most popular topics, browse, join, create chat rooms and message other users.‘Chat Room’ uses the Socket IO for  real-time asynchronous communication between clients and server.
+
+<p align="center">
+
+ <img src="http://katikids.com/chatRoom-chat-1.png" height="550" width="300">
+ 
+</p>
+
  
 ## Desc. Steps :
 
