@@ -21,12 +21,12 @@ Swift 3.0
 
 <p align="center">
  
-  <br><br>  <br><br>
+  <br><br>
   <img src="http://katikids.com/chatRoom-twitter.png" height="550" width="300">
  
   </p>
   
-##  
+## Desc. Steps :
 
 2. Navigate the existing chatroom and enter your preferred chat room topic - 	    Technology / Cars / Immigration / …. etc. 
  
