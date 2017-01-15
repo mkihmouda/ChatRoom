@@ -18,34 +18,31 @@ Swift 3.0
 ## Desc. Steps :
 
     1. Run APP on Simulator or IOS Device and authorized yourself by login in your twitter account.
-
+ 
 <p align="center">
- 
-  <br><br>
-  <img src="http://katikids.com/chatRoom-twitter.png" height="550" width="300">
- 
-  </p>
-  
-## Desc. Steps :
 
-2. Navigate the existing chatroom and enter your preferred chat room topic - 	    Technology / Cars / Immigration / …. etc. 
+ <img src="http://katikids.com/chatRoom-twitter.png" height="550" width="300">
  
+</p>
+    
+    
+    2. Navigate the existing chatroom and enter your preferred chat room topic -  Technology / Cars / Immigration / …. etc. 
  
+
 <p align="center">
  
    <img src="http://katikids.com/chatRoom-groups.png" height="550" width="300">
  
- </p>
-  
+</p>
 
- 3. Start chasing with others with nicely GUI and message design with  supporting all scrolling functionalities 
+     3. Start chating with others with nicely GUI and message design with  supporting all scrolling functionalities 
  
  <div align="center">
  
  <figure>
   <img src="http://katikids.com/chatRoom-chat-1" height="550" width="300">
   <b>  </b>
-   <img src="http://katikids.com/IWeather6.png" height="550" width="300">
+  <img src="http://katikids.com/chatRoom-chat-2" height="550" width="300">
 </figure>
  
   </div>
