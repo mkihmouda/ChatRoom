@@ -30,10 +30,10 @@ let scrollViewPaddingHeight : CGFloat = 10.0
 
 
 
-let CREATE_USER_URL = "http://katikids.com/user/create"
-let CHAT_ROOMS_URL = "http://katikids.com/api/chat/rooms/all?api_token="
-let CHAT_MESSAGES_URL = "http://katikids.com/api/chat/rooms/messages/"
-let CREATE_MESSAGES_URL = "http://katikids.com/api/chat/message/create"
+let CREATE_USER_URL = "http://appsgeeks.de/user/create"
+let CHAT_ROOMS_URL = "http://appsgeeks.de/api/chat/rooms/all?api_token="
+let CHAT_MESSAGES_URL = "http://appsgeeks.de/api/chat/rooms/messages/"
+let CREATE_MESSAGES_URL = "http://appsgeeks.de/api/chat/message/create"
 
 // Scoket Constants
 
